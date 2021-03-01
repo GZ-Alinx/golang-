@@ -1,0 +1,8 @@
+1. windows下编译为linux二进制执行文件
+
+1.1 Go build前设置build类型为linux
+go env -w GOOS=linux
+go env -w GOARCH=amd64
+
+1.2编译
+go build xxs.gogo
