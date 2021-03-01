@@ -1,0 +1,9 @@
+
+1. 设置go环境参数
+go env -w GO111MODULE=on
+go env -w GOPROXY=https://goproxy.cn,direct
+
+2. vscode 安装go插件
+3. 创建项目，安装go基础包
+
+以上即可安装vscode环境
