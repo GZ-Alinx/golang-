@@ -1,0 +1,116 @@
+包
+包管理
+    包名称符合命名规范
+    1. gopath+vendor 方式
+        GOPATH环境变量 配置目录 项目开发目录
+        bin 二进制文件
+        ogk 库文件
+        src 源文件
+        
+        设置GOPATH
+        set GOPATH=%GOPATH%;可以加分号 多个
+
+        同一个文件夹下 多个go文件的package 需要和文件夹名称保持一致 才能进行调用
+        
+        在多个项目中 使用不同版本第三方包或者相同包的时候 使用vendor进行管理，会就近查找包进行使用
+
+        a/vendor
+        a/../vendor
+        GOPATH/src
+        GPROOT/src
+
+
+
+
+ 
+    2. gomod 方式
+        2.1 包名称符合命名规范
+        GO111MODULE = on 必须使用gomod方式
+        GO111MODULE = off 必须使用gopath方式
+        GO111MODULE = 空(默认)  自己选择
+                        不在GOPATH 且 当前目录有 go.mod => gomod
+                        否则 GOPATH
+        go mod 开关
+        go env -w GO111MODULE=off
+        go env -w GO111MODULE=on
+        go env -w GO111MODULE=
+
+        如果一个文件夹下有多个文件夹，那go文件的包写成文件夹名称；
+
+        关闭gomod之后 
+            同一个包下面的程序可以直接进行调用
+            其他文件需要将包声明写成 package main ， 写成main之后，同一个包(同一文件夹下)下的函数可以直接进行调用
+
+
+
+        2.2 版本以 go.mod 文件管理
+        2.3 自动 GOPROXY 进行代理下载包，否则配置新的GOPATH进行存放
+        2.4 go mod 代码可以随意放置在模块中的任何位置，包括多个文件夹
+        2.5 go replace 特性之一，可以进行替换
+
+    使用gomod
+
+        2.6 初始换模块
+            go mod init 项目名称
+            代码仓库的路径/项目名称
+            github.com/imsileence/testgomod 这样上传后方便下载使用
+        
+
+        2.7 使用第三方包
+            2.7.1 直接使用第三方包
+            github.com/GZ-Alinx/gotest
+            /*
+            package main
+            import (
+                "fmt"
+                "github.com/GZ-Alinx/gotest" // 引入第三方包 
+            )
+
+            func main() {
+                fmt.Println(gotest.Add(1, 2)) // 进行使用
+            }
+            */
+
+
+        2.8 提供第三方包
+            2.8.1 进入github创建项目 github.com/GZ-Alinx/gotest
+            2.8.2 创建文件夹gotest
+            初始化项目
+                go mod init github.com/GZ-Alinx/gotest
+                2.8.2.1 开始开发代码
+                    开发完成，推送到远程仓库
+                    git add .  初始化仓库
+                    git commit -sv 提交代码
+                    git remote add origin https://github.com/GZ-Alinx/gotest.git 添加远程仓库
+                    git push -u origin master 推送到远程仓库
+
+
+
+
+        2.9 自己正常使用
+            2.9.1 创建一个文件夹testmod
+            2.9.2 进入testmod文件夹 执行[ go mod init testmod ] 进行初始化模块
+            2.9.3 在testmod文件夹下创建 main.go 文件
+            2.9.4 在testmod下 创建其他多个文件夹管理其他包进行开发
+                    然后在其他文件夹下的 go 文件的package 写成文件夹名称
+                    在模块文件夹下进行编译
+                    编译  go build . 
+                    得到  ==>> 模块名称.exe / 模块名称 二进制文件
+
+                路径分布
+                    testmod
+                        math/    包文件夹  文件夹下函数切记大写 否则外部调用不了
+                        sten/    包文件夹
+                        execs/   包文件夹
+                        go.mod   go mod 管理文件  
+                        main.go  入口文件包 导入包 进行使用
+
+
+
+                            在main.go中 导入使用
+                            import (
+                                "fmt"
+                                "testmod/math" // 模块名称/目录路径
+                                "testmod/execs"
+                            )
+
