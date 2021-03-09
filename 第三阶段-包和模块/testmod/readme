@@ -1,0 +1,18 @@
+自己使用方式 gomod
+
+导入使用
+import (
+	"fmt"
+	"testmod/execs"
+	"testmod/math" // 模块名称/目录路径
+)
+
+execs 下go文件 package execs
+math 下go文件 package math
+
+编译 go build . 
+
+
+得到可执行文件 
+    windows: testmod.exe
+    linux: testmod
