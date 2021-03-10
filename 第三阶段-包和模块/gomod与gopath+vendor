@@ -50,8 +50,8 @@
 
     使用gomod
 
-        2.6 初始换模块
-            go mod init 项目名称
+        2.6 初始换模块 
+            go mod init 项目名称  注意： 在当前目录中执行
             代码仓库的路径/项目名称
             github.com/imsileence/testgomod 这样上传后方便下载使用
         
