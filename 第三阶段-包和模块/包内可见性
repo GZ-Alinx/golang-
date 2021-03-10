@@ -1,0 +1,9 @@
+包内的函数 首字母需要大写 否则包外无法进行访问使用 
+
+func test() {
+    fmt.Println("不可见的函数")
+}
+
+func Test() {
+    fmt.Println("可见的函数")
+}
