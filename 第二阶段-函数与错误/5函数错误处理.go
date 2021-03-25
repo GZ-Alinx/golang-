@@ -1,8 +1,8 @@
 package main
 
 import (
-	"errors"
 	"fmt"
+	"runtime/debug"
 	"strconv"
 )
 
@@ -21,6 +21,22 @@ func div2(left, right int) (int, error) {
 		return 0, errors.New("right num is zero") // 初始化error类型变量
 	}
 	return left / right, nil
+}
+
+func errret() error {
+	// 错误捕获 panic 抛出异常  recover异常处理
+	// 匿名函数处理
+	defer func() {
+		if e := recover(); e != nil {
+			fmt.Printf("错误信息：%v", e)
+			debug.PrintStack()
+		}
+	}()
+	return
+}
+func errors() error {
+	panic("抛出异常")
+	return errors("抛出异常")
 }
 
 func main() {
@@ -60,4 +76,5 @@ func main() {
 	}
 	fmt.Println(div2(1, 0)) // 调用出发错误  第二种
 	fmt.Println(div2(2, 1)) // 调用得到正确 nil
+
 }
