@@ -1,0 +1,31 @@
+学习方法： 积累 + 多学习 =  大佬
+
+
+
+Go标准包地址： https://golang.google.cn/pkg/
+第三方包地址： https://pkg.go.dev/
+本地查询方法： go doc 模块名称 go自带
+
+godoc 本地帮助文档安装: 
+    go get -v  golang.org/x/tools/cmd/godoc
+    执行 $ godoc 
+    访问地址： localhost:6060
+
+
+第三方包使用： 先 go mod tidy, 之后才能使用
+
+
+
+
+
+base64
+    编码/解码 包
+        encoding/base64
+    
+    64种字符集合
+    标准的
+        大小写英文字母数字下划线 +/
+    URL的
+        大小写英文字母数字下划线 +/
+
+

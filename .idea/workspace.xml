@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4349d185-830d-418a-8128-14183cfe90c6" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_encoder/gob.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_filepath/a/1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_filepath/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_glog/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_go-gomail/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_gomail/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_ioutil/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_ioutil/rdwr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_md5/a.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/标准包学习/序列化.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第一阶段-基础语法/切片操作.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第七阶段-接口反射/接口基础/file操作.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第五阶段-接口反射/接口预习/interfaceBase.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六阶段-文件读写/02openfile/append.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六阶段-文件读写/02openfile/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六阶段-文件读写/02openfile/std.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六阶段-文件读写/1open/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六阶段-文件读写/1open/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六阶段-文件读写/作业集合/copyfile/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六阶段-文件读写/作业集合/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六阶段-文件读写/带缓冲io/bufio.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六阶段-文件读写/带缓冲io/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六阶段-文件读写/带缓冲io/read.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六阶段-文件读写/带缓冲io/tailf.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六阶段-文件读写/带缓冲io/write.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六阶段-文件读写/文件是否存在.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六阶段-文件读写/文件校验/check/checkfile.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第四章-结构体,方法/作业/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习项目/fileCheck/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/环境安装/gowindows环境交叉编译" beforeDir="false" afterPath="$PROJECT_DIR$/环境安装/gowindows环境交叉编译" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/环境安装/vscode-go环境安装" beforeDir="false" afterPath="$PROJECT_DIR$/环境安装/vscode-go环境安装" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第一阶段-基础语法/数组arry-切片slice-映射map.go" beforeDir="false" afterPath="$PROJECT_DIR$/第一阶段-基础语法/数组arry-切片slice-映射map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/第四章-结构体,方法/readme" beforeDir="false" afterPath="$PROJECT_DIR$/第四章-结构体,方法/readme" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/标准包学习/pkg_encoder/gob.go" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1rQxg4YObOz2q3bx599k45AXLTf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\golang\go复习\标准包学习\pkg_glog" />
+      <recent name="D:\golang\go复习\第六阶段-文件读写\02openfile" />
+      <recent name="D:\golang\go复习\第六阶段-文件读写\1open" />
+      <recent name="D:\golang\go复习\第六阶段-文件读写\文件校验\check" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go 构建.go build 数组arry-切片slice-映射map.go">
+    <configuration name="go build 文件是否存在.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go复习" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/第六阶段-文件读写/文件是否存在.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 数组arry-切片slice-映射map.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go复习" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/第一阶段-基础语法/数组arry-切片slice-映射map.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go复习" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/标准包学习/pkg_gomail/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go复习" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/第六阶段-文件读写/readfile/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go复习" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/标准包学习/pkg_time/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go 构建.go build 数组arry-切片slice-映射map.go" />
+        <item itemvalue="Go 构建.go build main.go (1)" />
+        <item itemvalue="Go 构建.go build 文件是否存在.go" />
+        <item itemvalue="Go 构建.go build main.go" />
+        <item itemvalue="Go 构建.go build main.go (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1258" y="276" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1619490881037">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1258" y="276" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1619490881037" />
+    <state x="687" y="202" key="FileChooserDialogImpl" timestamp="1619058942047">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="202" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619058942047" />
+    <state width="1869" height="286" key="GridCell.Tab.0.bottom" timestamp="1619517969096">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619517969096" />
+    <state width="1869" height="286" key="GridCell.Tab.0.center" timestamp="1619517969096">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619517969096" />
+    <state width="1869" height="286" key="GridCell.Tab.0.left" timestamp="1619517969096">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619517969096" />
+    <state width="1869" height="286" key="GridCell.Tab.0.right" timestamp="1619517969096">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619517969096" />
+    <state width="1869" height="333" key="GridCell.Tab.1.bottom" timestamp="1619511013104">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="333" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1619511013104" />
+    <state width="1869" height="333" key="GridCell.Tab.1.center" timestamp="1619511013104">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="333" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1619511013104" />
+    <state width="1869" height="333" key="GridCell.Tab.1.left" timestamp="1619511013104">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="333" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1619511013104" />
+    <state width="1869" height="333" key="GridCell.Tab.1.right" timestamp="1619511013104">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1869" height="333" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619511013104" />
+    <state width="653" height="498" key="SwitcherDM" timestamp="1619252964734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="653" height="498" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1619252964734" />
+    <state x="1029" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1619508582154">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1029" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1619508582154" />
+  </component>
+</project>
