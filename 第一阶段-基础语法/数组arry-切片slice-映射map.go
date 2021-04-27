@@ -112,7 +112,7 @@ func Typeslices() {
 	slice := make([]string{})
 	*/
 
-	// 切片操作
+	// 切片操作 初始化  初始化才能用 否则无法使用
 	stu := make([]string, 3, 5)
 	fmt.Printf("步长: %d\n长度: %d\n", len(stu), cap(stu))
 	fmt.Printf("%q,%q\n", stu[0], stu[1:5])
@@ -140,7 +140,7 @@ func Typeslices() {
 	// stu2[start:end] stu2中，从start开始到end-1所有元素组成的切片
 	stu2 = stu2[0:4] // 以索引进行删除
 	fmt.Println(stu2)
-	// 删除都一个元素，删除最后一个元素
+	// 删除第一个元素，删除最后一个元素
 	stu3 := []string{"golang", "java", "python", "C#", "C++"} //  切片定义
 	stu4 := stu3[1:len(stu3)]
 	fmt.Println("-----------------")
@@ -155,6 +155,15 @@ func Typeslices() {
 	nums2 := []int{10, 11, 12, 13, 15, 15, 16}
 	copy(nums1, nums2) // 按照索引进行复制对应起来
 	fmt.Println(nums1, nums2)
+
+	// 切片追加
+
+	//# 可以将string拼接到byte切片
+	slice := make([]byte, 10)
+	var a string = "Hi "
+	var b string = "YY"
+	slice = append([]byte(a), b...)
+	fmt.Println("切片追加，解包的方式： ", string(slice))
 }
 
 // 映射map 类似py字典

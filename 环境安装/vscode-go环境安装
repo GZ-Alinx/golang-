@@ -1,9 +1,17 @@
+Gomod方式设置 项目开发简单流程
 
 1. 设置go环境参数
-go env -w GO111MODULE=on
-go env -w GOPROXY=https://goproxy.cn,direct
+    go env -w GO111MODULE=on
 
-2. vscode 安装go插件
-3. 创建项目，安装go基础包
+2. 设置包下载代理
+    go env -w GOPROXY=https://goproxy.cn,direct
+
+3. vscode 安装go插件
+4. 创建项目，安装go基础包
 
 以上即可安装vscode环境
+
+
+go -x 打印执行的命令
+go -v 打印构建的包
+go install 安装所需要的包

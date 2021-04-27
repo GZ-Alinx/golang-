@@ -6,3 +6,5 @@ go env -w GOARCH=amd64
 
 1.2编译
 go build xxs.gogo
+
+

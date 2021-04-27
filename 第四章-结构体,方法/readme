@@ -12,4 +12,71 @@ go面向对象编程
             当前已有结构体 = 扩展并使用
             匿名组合 => 尽量只匿名组合一个
         
-        => 方法 
+        => 方法 给特定类型定义的函数，只能有特定的类型进行调用
+            func funcName(args) returns {
+
+            }
+            接收者 => 指定函数属于那个类型，只能由对应的类型进行调用
+            func (reciver) methodName(args) returns {
+
+            }
+            除了接收者，函数的修改/返回值 与go中的函数完全一致
+            接收者也是一个参数: t T参数类型 方法所属的类型 方法只能有T类型的对象今昔调用
+            
+            t 变量名，在对象调用方法时传递，调用的对象
+            T 自定义类型(结构体)
+                1. 值接收者 T
+                2. 指针接收者 *T 
+                3. 方法之内不需要访问、需要改 t对象的属性 t可以去掉
+
+
+
+            方法可见性： 与属性相同
+                首字母大写 包外可见
+                首字母小写 包外不可见
+                
+            单步调试 dlv
+
+
+自定义类型：
+    定义语法
+        var 变量
+        const 常量
+        func 函数
+        type 类型
+    
+    type:
+    语法 type Counter formarter
+        重定义  type Counter int
+        结构体： type User struct {
+                    属性名称1 属性类型1
+                    属性名称2 属性类型2
+                    属性名称3 属性类型3                    
+                }
+        别名： var count Counter 类型为interesting、
+
+        类型转换 Counter(你的类型) 之后才能弧线给计算
+    
+    new make
+    make 创建对象
+        slice，map，chan创建
+    new 返回指针 创建结构体指针对象
+        一般用在基础数据类型
+        var i int = 1
+        p := &i
+        上面两行使用new实现
+        p := new(int)
+    
+
+    匿名结构体
+        var user struct {
+            id   int
+            name string
+            addr string
+            tel  string
+	    }
+    
+
+    结构体可见性
+        结构体可见性也一样，首字母大写才可对外可见
+        结构体属性也需要首字母大写才能被调用
