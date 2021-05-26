@@ -8,7 +8,7 @@ import (
 
 // 打开文件标识 flag
 /*
-go doc os.O_CREATE
+windows项目 doc os.O_CREATE
 	O_RDONLY 	以只读的方式打开 		open the file read-only.
 	O_WRONLY 	以只写的方式打开 		open the file write-only.
 	O_RDWR   	以读写的方式打开 		open the file read-write.

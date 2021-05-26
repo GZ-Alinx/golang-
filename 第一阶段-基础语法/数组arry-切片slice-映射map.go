@@ -44,9 +44,9 @@ func Typearry() {
 func Typearrys() {
 	// 多为数组的长度只有一维可以自动推导，二维必须定义长度
 	langes1 := [...][3]string{{"golang", "python", "groovy"}, {"java", "golang", "C++"}}
-	langes2 := [3][3]string{{"go", "shell", "groovy"}, {"java", "golang", "C++"}}
-	langes3 := [3][3]string{0: {"go", "shell", "groovy"}, 2: {"java", "golang", "C++"}}
-	langes4 := [4][3]string{0: {0: "go", 2: "shell", 1: "groovy"}, 1: {"java", "golang", "C++"}, 3: {"php", "javascriptr", "html"}}
+	langes2 := [3][3]string{{"windows项目", "shell", "groovy"}, {"java", "golang", "C++"}}
+	langes3 := [3][3]string{0: {"windows项目", "shell", "groovy"}, 2: {"java", "golang", "C++"}}
+	langes4 := [4][3]string{0: {0: "windows项目", 2: "shell", 1: "groovy"}, 1: {"java", "golang", "C++"}, 3: {"php", "javascriptr", "html"}}
 
 	// 输出类型
 	fmt.Printf("数组： \n%T\n%T\n%T\n%T\n", langes1, langes2, langes3, langes4)
@@ -70,7 +70,7 @@ func Typearrys() {
 	fmt.Printf("更正后- 运维开发需要掌握的技能为：%s\n", langes2[0])
 
 	// 多为数组遍历
-	// langes3 := [3][3]string{0: {"go", "shell", "groovy"}, 2: {"java", "golang", "C++"}}
+	// langes3 := [3][3]string{0: {"windows项目", "shell", "groovy"}, 2: {"java", "golang", "C++"}}
 	for i, line := range langes3 {
 		// fmt.Printf("第一次遍历：%s\n", line)
 		for ii, vv := range line {
@@ -201,6 +201,9 @@ func Typemaps() {
 	for k, v := range langes {
 		fmt.Printf("遍历map数据: %s %s\n", k, v)
 	}
+
+
+	// map 追加
 
 }
 

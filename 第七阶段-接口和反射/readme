@@ -1,0 +1,28 @@
+
+
+接口
+    定义
+    声明&赋值&使用
+    类型断言&查询
+    接口(匿名)嵌入
+    匿名接口
+    空接口
+
+
+反射
+    1. Type，value
+    2. 使用反射
+    3. 反射应用(内部实现使用反射: json,xml)
+
+
+
+接口是对行为的抽象 => 实现行为的对象
+
+定义
+    接口： 定义的一些函数
+        签名： 参数列表，返回值列表
+    关键字： interface
+    type TypeName Formatter
+    type interfaceName interface {
+        方法签名
+    }

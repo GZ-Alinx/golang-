@@ -29,7 +29,7 @@ func main() {
 	}
 
 	// 创建文件夹 参数1： go上下文， 参数2： 需要创建的文件夹  参数3： 父文件夹
-	folder, err := jenkins.CreateFolder(ctx, "go-server", "lixiong")
+	folder, err := jenkins.CreateFolder(ctx, "windows项目-server", "lixiong")
 	if err != nil {
 		fmt.Println("创建文件夹失败", err)
 		// return

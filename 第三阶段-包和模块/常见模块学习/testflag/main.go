@@ -39,7 +39,7 @@ func main() {
 	fmt.Println(port)
 
 	// 使用
-	// go run .\main.go -P
+	// windows项目 run .\main.windows项目 -P
 
 	// 打印没有指定的参数名称
 	fmt.Println(flag.Args())

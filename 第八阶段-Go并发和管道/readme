@@ -1,0 +1,44 @@
+
+Go并发
+
+
+    并发与并行
+        并发: 在同一个时间段执行多个任务；用微信在和多个女性朋友在聊天
+        并行: 同一个时刻执行多个任务；我和朋友都在和多个女性朋友聊天
+
+    说明
+        Go语言并发通过goroutine实现，goroutine类似于线程，属于用户态线程，可以根据需要创建成千上万个goroutine并发执行任务
+        goroutine是共语言运行时调度完成，而线程是由操作系统调度完成，Go语言还提供chennel在goroutine之间进行通信
+
+    CSP模型
+        goroutine和chennel是Go语言秉承CSP(Communicating Sequential Process) 模型并发模式的重要基础
+
+
+
+    Goroutine
+        Go程序中使用关键字go 就能创建一个goroutine线程，一个函数可以创建多个goroutine，一个goroutine必须对应一个函数
+
+        启动单个goroutine
+        只需要在函数前面加一个go 关键字即可
+
+    channel
+        关键字 chan
+        // chan 类型  传输的数据类型int,长度为2 不能超过定义的长度
+        ch := make(chan int, 2)
+        var ch chan string
+
+    sync
+        /* sync包 提供的其中并发工具类
+
+        并发工具类		说明
+        Mutex			互斥锁
+        RWMutex			读写锁
+        WaitGroup		并发等待组
+        Map				并发安全字典
+        Cond			同步等待条件
+        Once			只执行一次
+        Pool			临时对象池
+
+        */
+
+

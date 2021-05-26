@@ -14,22 +14,21 @@ func Mail(mailTo string, subject string, body string, wg *sync.WaitGroup) error 
 	// 服务器smtp信息，登录用户和密码
 	mailConn := map[string]string{
 		"username": "itadminlx",
-		"authCode": "WVYEPUOQTWWNMBYJ",
+		"authCode": "****",
 		"host":     "smtp.163.com",
 		"port":     "465",
 	}
 
-	// 设置邮箱主体信息 发件人等
 	m := gomail.NewMessage()
 	m.SetHeader("From", "itadminlx@163.com")
 	m.SetHeader("To", mailTo)
 	m.SetHeader("Subject", subject)
-	m.SetBody("text/html", body) // 定义主题格式 内容
+	m.SetBody("text/html", body)
 
 	// 拼接邮件信息
 	port, _ := strconv.Atoi(mailConn["port"])
 	d := gomail.NewDialer(mailConn["host"], port, mailConn["username"], mailConn["authCode"])
-	d.TLSConfig = &tls.Config{InsecureSkipVerify: true} // 是否跳过ssl使用方式
+	d.TLSConfig = &tls.Config{InsecureSkipVerify: true}
 
 	if err := d.DialAndSend(m); err != nil {
 		panic(err)

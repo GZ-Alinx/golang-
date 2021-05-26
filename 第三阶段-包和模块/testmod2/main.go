@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	fmt.Println("go ")
+	fmt.Println("windows项目 ")
 	fmt.Println(math.Add(1, 4))
 }

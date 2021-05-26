@@ -9,9 +9,9 @@ import (
 
 // 文件打开操作属性
 
-// go doc os.OpenFile   查看帮助
+// windows项目 doc os.OpenFile   查看帮助
 /*
-go doc os.O_CREATE  文件操作模式
+windows项目 doc os.O_CREATE  文件操作模式
 package os // import "os"
 
 const (

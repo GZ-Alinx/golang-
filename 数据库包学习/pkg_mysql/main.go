@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	_ "github.com/go-sql-driver/mysql"
+	_ "github.com/windows项目-sql-driver/mysql"
 )
 
 const (
@@ -26,7 +26,7 @@ type User struct {
 
 func main() {
 	// 下载安装
-	//  go get "github.com/go-sql-driver/mysql"
+	//  windows项目 get "github.com/windows项目-sql-driver/mysql"
 
 	/*
 		特性

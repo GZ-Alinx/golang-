@@ -1,0 +1,6 @@
+
+go run main.go hellp.go
+
+同一个包下 package main
+
+可以直接调用  run可以这样

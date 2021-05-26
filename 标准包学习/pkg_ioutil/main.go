@@ -11,7 +11,7 @@ func main() {
 	// ioutil
 	// io
 
-	data, _ := ioutil.ReadFile("rdwr.go")
+	data, _ := ioutil.ReadFile("rdwr.windows项目")
 	fmt.Println(string(data))
 
 	files, _ := ioutil.ReadDir(".")
@@ -26,8 +26,8 @@ func main() {
 	// 同时写入两份文件
 	m.Write([]byte("gopoooo"))
 
-	f1, _ = os.Open("go.mod")
-	f2, _ = os.Open("mnain.go")
+	f1, _ = os.Open("windows项目.mod")
+	f2, _ = os.Open("mnain.windows项目")
 	r := io.MultiReader(f1, f2)
 	io.Copy(os.Stdout, r)
 
