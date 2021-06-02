@@ -32,7 +32,7 @@ func main() {
 	//a := <- ch
 	//b := <- ch
 	//c := <- ch
-	//fmt.Println(a,b,c)
+	//pkg_fmt.Println(a,b,c)
 	time.Sleep(time.Second)
 
 }

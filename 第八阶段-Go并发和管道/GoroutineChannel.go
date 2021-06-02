@@ -9,7 +9,7 @@ import "fmt"
 func main() {
 	// 声明一个新的channel 并指定channel内传输的数据类型T
 	var channelName chan string
-	fmt.Printf("%T,  %#v\n", channelName,channelName)
+	fmt.Printf("%T,  %#v\n", channelName, channelName)
 
 	ch := make(chan string, 1)
 	// channel的发送和接收
@@ -19,12 +19,11 @@ func main() {
 	a := "123"
 	ch <- a // 讲a发送到channel中 在channel被填满之后在向通道中发出将会阻塞当前goroutine
 	//接收数据
-	a,ok := <- ch
+	a, ok := <-ch
 	if ok {
 		fmt.Println(a)
-	}else{
+	} else {
 		fmt.Println("数据为空")
 	}
 
 }
-

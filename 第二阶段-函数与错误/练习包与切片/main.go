@@ -34,7 +34,7 @@ func main() {
 			并让用户输入y/n确认是否删除
 			输入y删除用户信息
 
-			fmt.Println(users)
+			pkg_fmt.Println(users)
 
 		3. 修改
 			modify函数

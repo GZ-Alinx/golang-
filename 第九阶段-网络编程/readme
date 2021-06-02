@@ -1,0 +1,160 @@
+go 网络编程
+
+
+基于tcp osi七层模型 分层的网络层下四层的包处理到会话层表示层和应用层的过程
+
+
+osi七层模型
+
+        应用层
+        表示层
+        会话层
+
+        传输层
+        网络层
+        数据链路层
+        物理层
+
+包地址文档
+https://pkg.go.dev/net
+
+
+TCP
+    服务端
+        1. 创建箭头
+        2. for
+            a.接收客户端连接
+            b. go处理客户端业务{
+                [
+                    规则1： 读写顺序，次数
+                ]
+                读取数据(读数据)
+                响应数据(写数据)
+                [
+                    规则2： 数据格式
+                ]
+            }
+        3. 关闭监听
+
+    客户端
+        1. 链接服务
+        2. 处理业务
+            a. 获取数据
+            b. 响应数据
+        3. 关闭链接
+
+
+
+    chat 聊天
+        客户端说一句，服务端答复一句
+        1. 谁先说： 客户端先说，服务端先读
+        2. 每次说话内容多少，读取数据是读多少数据
+            网络开发中粘包处理
+            方式1：
+                前n个字节： 数据长度
+                size + content
+                先读取5个字节 = size
+                再读取一次
+
+            方式2：
+                每次数据都是以\n结尾
+                带缓冲io
+        3. 通话结束
+            客户端发送内容为bye 结束
+
+    c/s => client + server
+     web => b/s => browser + server
+
+     WEB API = 第三方使用者，使用目标不是浏览器
+               需要自己去调用
+
+               组装HTTP请求 发送给服务端 解析HTTP响应
+
+
+
+     客户端  <=HTTP=>服务端
+
+     HTTP协议: 超文本传输协议
+         HTTP 1.1/1.0/2.0 => 3.0
+         HTTP 1.1/1.0 文本
+
+         请求和响应的文本格式
+
+         请求都是从客户端发起(请求/应答)
+         HTTP Request
+             \r\n分的多行文本数据
+             1: 请求行 第一行 Method URL Protocol/Version
+                 Method: 请求方式
+                         OPTIONS
+                         HEAD GET POST DELETE PUT
+                         Connect TRACE
+
+                         针对浏览器常发起的请求有GET, POST
+                 URL: 标识不同的服务
+                     针对web开发需要定义URL和URL处理逻辑
+             2: 请求头 多行 Key: Value
+                     Host: 服务主机名
+                     浏览器信息 UserAgent
+                     会话信息 Cookie
+                     Content-Type:
+                     ...
+             [空行]
+             3. 请求体 可能没有 如果有内容 格式
+                 常用编码方式
+                     application/x-www-form-urlencoded
+                         key=value&key=value
+                     multipart/form-data
+                         上传文件
+                     application/json
+                     application/xml
+
+         HTTP Response
+             1. 响应行
+                协议 响应状态码  响应状态码文本描述
+                1xx 告知客户端数据已收到请继续上传数据
+                2xx 请求正常
+                     200
+                3xx 请求重定向
+                     301 永远
+                     302 临时重定向
+                4xx 请求数据错误
+                     400 提交数据错误
+                     401 认证错误
+                     402
+                     403 权限拒绝
+                     404 URL错误
+                     405 请求方式错误
+                5xx 服务端错误
+                     500
+                     501
+                     503
+                     504  网关超时
+
+             2. 响应头
+                 key: value
+                 Content-Type: 响应格式
+                 Set-Cookie: 设置会话
+             [空行]
+             3. 响应体
+                 text/html
+                 application/json
+                 application/xml
+
+     如何开发：服务端 客户端 net.http包
+         url => http.Handler 处理器
+                 ServeHTTP(http.ResponseWrite, *http.Request)
+
+         客户向服务器提交数据:
+             url?key=value&key=value
+             queryparams =>
+
+             request body:
+                 POST
+                 content-type: application/x-www-form-urlencoded
+                                 key=value&key=value
+                               application/json
+                               multipart/form-data
+
+     gin框架
+
+

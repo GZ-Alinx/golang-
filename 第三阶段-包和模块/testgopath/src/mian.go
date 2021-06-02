@@ -1,7 +1,7 @@
 package main
 
 import (
-	"TestDemo"	"fmt"
+	"TestDemo"	"pkg_fmt"
 )
 
 

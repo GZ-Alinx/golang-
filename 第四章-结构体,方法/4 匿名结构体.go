@@ -44,7 +44,7 @@ func main() {
 	// 	id   int
 	// 	name string
 	// }{123, "alinx"}
-	// fmt.Printf("%T,%#v\n", u2, u2)
+	// pkg_fmt.Printf("%T,%#v\n", u2, u2)
 
 	// 简写 指针加&即可 ，  一般作为数据传递
 	var u2 = struct {
@@ -56,5 +56,5 @@ func main() {
 	// 	id   int
 	// 	name string
 	// }{id: 111, name: "ddd"}
-	// fmt.Printf("%T,%#v\n", u2, u2)
+	// pkg_fmt.Printf("%T,%#v\n", u2, u2)
 }

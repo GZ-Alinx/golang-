@@ -14,10 +14,10 @@ func main() {
 	defer file.Close()
 	// content := make([]byte, 10) // 切片为读取的字符串大小
 	// file.Read(content)
-	// fmt.Println(string(content))
-	// fmt.Println(file.Write([]byte("123"))) // 写入内容
+	// pkg_fmt.Println(string(content))
+	// pkg_fmt.Println(file.Write([]byte("123"))) // 写入内容
 	// reads := make([]byte, 100)
-	// fmt.Println(file.Read(reads))
+	// pkg_fmt.Println(file.Read(reads))
 
 	//  写入
 	file.WriteString("very good")

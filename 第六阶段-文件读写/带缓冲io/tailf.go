@@ -28,7 +28,7 @@ func main() {
 
 
 	// 另外一种方式
-	reader := bufio.NewReader(file)
+	//reader := bufio.NewReader(file)
 	reader := bufio.NewReaderSize(file, 16)
 
 
@@ -39,7 +39,7 @@ func main() {
 			if err != io.EOF {
 				log.Println(err)
 				break
-			}-
+			}
 			// 程序等待n秒
 			time.Sleep(time.Second)
 		}else if isPrefix {

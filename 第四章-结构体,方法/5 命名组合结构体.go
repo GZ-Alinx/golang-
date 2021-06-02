@@ -34,6 +34,6 @@ func main() {
 
 	// 访问
 	fmt.Println(users.addr.province)
-	// fmt.Printf("%T,%#v", users, users)
+	// pkg_fmt.Printf("%T,%#v", users, users)
 
 }

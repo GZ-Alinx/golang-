@@ -11,7 +11,7 @@ func main() {
 	public := models.Public{}
 	fmt.Println(public.Public)
 	fmt.Println(public.Private) //  无法调用
-	// fmt.Println(models.privateStruct{})
+	// pkg_fmt.Println(models.privateStruct{})
 
 	pv := models.NewPrivateStruct()
 	fmt.Println(pv)

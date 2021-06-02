@@ -72,18 +72,18 @@ func Typearrys() {
 	// 多为数组遍历
 	// langes3 := [3][3]string{0: {"windows项目", "shell", "groovy"}, 2: {"java", "golang", "C++"}}
 	for i, line := range langes3 {
-		// fmt.Printf("第一次遍历：%s\n", line)
+		// pkg_fmt.Printf("第一次遍历：%s\n", line)
 		for ii, vv := range line {
-			// fmt.Printf("第二次遍历: %s\n", vv)
+			// pkg_fmt.Printf("第二次遍历: %s\n", vv)
 			fmt.Printf("langes3数组中的值为：[%d %d %s]\n", i, ii, vv) // 此处需要多注意
 		}
 	}
 
 	// 多为数组遍历第二遍测试
 	for i, line := range langes1 {
-		// fmt.Printf("第一次遍历：%s\n", line)
+		// pkg_fmt.Printf("第一次遍历：%s\n", line)
 		for ii, vv := range line {
-			// fmt.Printf("第二次遍历: %s\n", vv)
+			// pkg_fmt.Printf("第二次遍历: %s\n", vv)
 			fmt.Printf("langes1数组中的值为：[%d %d %s]\n", i, ii, vv) // 此处需要多注意
 		}
 	}

@@ -58,10 +58,10 @@ func main() {
 			if err == io.EOF {
 				endTime := time.Now().UnixNano() // 毫秒时间
 				fmt.Println("使用时间:", (endTime-startTime)/1e6)
-				//fmt.Println("使用时间:",(endTime - startTime) / 1e9)
+				//pkg_fmt.Println("使用时间:",(endTime - startTime) / 1e9)
 				log.Fatal(err)
 			}
-			//fmt.Println("文件读取完毕")
+			//pkg_fmt.Println("文件读取完毕")
 			break
 		}
 
@@ -70,6 +70,6 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		//fmt.Println("文件写入完毕")
+		//pkg_fmt.Println("文件写入完毕")
 	}
 }

@@ -60,7 +60,7 @@ func add() map[string]string {
 
 func Query(names string) string {
 	for _, v := range users {
-		// fmt.Printf("%T\n,%#v\n", v, v)
+		// pkg_fmt.Printf("%T\n,%#v\n", v, v)
 		if strings.Contains(v["name"], names) { // 数据包含
 			fmt.Print("数据已找到: ")
 			fmt.Println(v)
@@ -126,6 +126,6 @@ func main() {
 		} else {
 			fmt.Println("操作有误")
 		}
-		// fmt.Println(users)
+		// pkg_fmt.Println(users)
 	}
 }

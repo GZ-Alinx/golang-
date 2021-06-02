@@ -17,7 +17,7 @@ func getFile(url string) ([]string, error) {
 	fileall := []string{}
 	files,_ := ioutil.ReadDir(url)
 	for _,v := range files {
-		//fmt.Println(i,v)
+		//pkg_fmt.Println(i,v)
 		if v.IsDir() {
 			f,err := getFile(url + "/"+ v.Name())
 			if err != nil {
@@ -36,7 +36,7 @@ func getFile(url string) ([]string, error) {
 func CodeSum(url string) (int,int,error) {
 	// 处理文件中代码行数统计
 	files,_ := getFile(url)
-	//fmt.Println(files)
+	//pkg_fmt.Println(files)
 	for _,v := range files {
 		fmt.Println(v)
 		data,  _ := ioutil.ReadFile(v)
@@ -67,7 +67,7 @@ func CodeSum(url string) (int,int,error) {
 			}
 		}
 	}
-	//fmt.Println(count)
+	//pkg_fmt.Println(count)
 	return fileSum, count,nil
 }
 

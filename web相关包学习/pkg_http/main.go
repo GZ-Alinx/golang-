@@ -31,6 +31,6 @@ func main() {
 	// http.Handle("/help", new(Help)) // 处理器绑定
 	http.ListenAndServe(addr, nil)
 	// http.Dir 类型转换
-	// http.Handle("/w1", http.FileServer(http.Dir("./static")))
-	// http.Handle("/www", http.StripPrefix("/www", http.FileServer(http.Dir("./static"))))
+	// http.Handle("/w1", http.FileServer(http.Dir("./static1")))
+	// http.Handle("/www", http.StripPrefix("/www", http.FileServer(http.Dir("./static1"))))
 }

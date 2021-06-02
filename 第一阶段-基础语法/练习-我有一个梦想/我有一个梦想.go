@@ -51,9 +51,9 @@ func main() {
 	And when this happens, when we allow freedom ring, when we let it ring from every village and every hamlet, from every state and every city, we will be able to speed up that day when all of God's children, black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual:
 	Free at last! free at last!
 	Thank God Almighty, we are free at last! `
-	// fmt.Printf("文章，我有一个梦想: %s\n 打印结束", text)
+	// pkg_fmt.Printf("文章，我有一个梦想: %s\n 打印结束", text)
 	// for _, v := range text {
-	// 	fmt.Println(v)
+	// 	pkg_fmt.Println(v)
 	// }
 	// 先把数据转为map 然后再进行操作
 	data := strings.ToLower(text) // 将字符转为小写

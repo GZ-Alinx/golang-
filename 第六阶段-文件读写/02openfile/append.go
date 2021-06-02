@@ -15,13 +15,13 @@ func main() {
 	log.SetOutput(file)
 	log.Fatal("第一条日志")
 
-	//fmt.Sprint("打印")
-	//fmt.Sprintf("组合打印")
-	//fmt.Sprintln("")
+	//pkg_fmt.Sprint("打印")
+	//pkg_fmt.Sprintf("组合打印")
+	//pkg_fmt.Sprintln("")
 	//
 	//files, err := os.Create("alinx.log")
-	//fmt.Fprint(files, 1,2,3)
-	//fmt.Fprint(files, "x","y","z")
-	//fmt.Fprintln(files,4,5,6)
+	//pkg_fmt.Fprint(files, 1,2,3)
+	//pkg_fmt.Fprint(files, "x","y","z")
+	//pkg_fmt.Fprintln(files,4,5,6)
 
 }

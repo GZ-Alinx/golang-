@@ -1,0 +1,35 @@
+文件操作
+
+
+    1. 文件路径
+    2. 文件操作
+    3. 带缓冲区IO
+    4. 文件操作相关包
+        os 文件操作
+        filepath 文件路径
+        bufio 带缓冲区IO
+        fs 抽象包 1.15提供
+        ioutil 提供工具函数
+
+
+    os 包提供的是操作系统层面的接口，通过go去操作资源，获取资源信息
+        os 包
+
+            // windows项目 doc os.OpenFile   查看帮助
+            /*
+            windows项目 doc os.O_CREATE  文件操作模式
+            package os // import "os"
+
+            // Exactly one of O_RDONLY, O_WRONLY, or O_RDWR must be specified.
+            O_RDONLY int = syscall.O_RDONLY // open the file read-only. 只读的方式
+            O_WRONLY int = syscall.O_WRONLY // open the file write-only. 只写方式打开
+            O_RDWR   int = syscall.O_RDWR   // open the file read-write. 读写方式打开
+            // The remaining values may be or'ed in to control behavior.
+            O_APPEND int = syscall.O_APPEND // append data to the file when writing. 追加模式
+            O_CREATE int = syscall.O_CREAT  // create a new file if none exists. 文件不存在则创建
+            O_EXCL   int = syscall.O_EXCL   // used with O_CREATE, file must not exist. 文件必须不存在
+            O_SYNC   int = syscall.O_SYNC   // open for synchronous I/O. 使用同步IO，一般不使用，常使用异步IO
+            O_TRUNC  int = syscall.O_TRUNC  // truncate regular writable file when opened. 打开截断文件
+    		截断文件： 清空
+
+

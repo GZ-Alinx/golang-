@@ -7,7 +7,7 @@ import (
 
 func main() {
 	// 文本处理
-
+	strings.Trim()
 	fmt.Println("strings学习")
 	fmt.Println(strings.Split("1 2 3", " "))       // 文本切割, 后面是切割标识
 	fmt.Println(strings.Contains("123456", "1"))   // 左边字符中是否包含右边的字符 返回值 bool  包含报告"1"是否在"123"之内

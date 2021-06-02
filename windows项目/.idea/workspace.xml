@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e82e102c-6175-4bd4-8823-7ce5f54695fe" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/windows进程管理/processManager/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../标准包学习/pkg_bufio/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第六阶段-文件读写/作业集合/sumCode/bufio.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第六阶段-文件读写/作业集合/sumCode/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第六阶段-文件读写/作业集合/sumCode/test/f2/t1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第六阶段-文件读写/作业集合/sumCode/test/f2/t11" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第六阶段-文件读写/作业集合/sumCode/test/t1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第六阶段-文件读写/作业集合/sumCode/test/t3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第六阶段-文件读写/作业集合/sumCode/test/t3t3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CICD相关模块/pkg_gojenkins/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../CICD相关模块/pkg_gojenkins/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../数据库包学习/pkg_mysql/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../数据库包学习/pkg_mysql/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../标准包学习/pkg_gomail/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../标准包学习/pkg_gomail/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../标准包学习/pkg_ioutil/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../标准包学习/pkg_ioutil/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../标准包学习/pkg_os/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../标准包学习/pkg_os/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../标准包学习/pkg_strings/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../标准包学习/pkg_strings/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第一阶段-基础语法/数组arry-切片slice-映射map.go" beforeDir="false" afterPath="$PROJECT_DIR$/../第一阶段-基础语法/数组arry-切片slice-映射map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第一阶段-基础语法/练习-我有一个梦想/我有一个梦想.go" beforeDir="false" afterPath="$PROJECT_DIR$/../第一阶段-基础语法/练习-我有一个梦想/我有一个梦想.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第三阶段-包和模块/testmod2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../第三阶段-包和模块/testmod2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第三阶段-包和模块/常见模块学习/testflag/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../第三阶段-包和模块/常见模块学习/testflag/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第六阶段-文件读写/01file.go" beforeDir="false" afterPath="$PROJECT_DIR$/../第六阶段-文件读写/01file.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第六阶段-文件读写/02openfile/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../第六阶段-文件读写/02openfile/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第六阶段-文件读写/11.go" beforeDir="false" afterPath="$PROJECT_DIR$/../第六阶段-文件读写/11.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第六阶段-文件读写/filewrite/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../第六阶段-文件读写/filewrite/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第六阶段-文件读写/作业集合/copyfile/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../第六阶段-文件读写/作业集合/copyfile/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第四章-结构体,方法/作业/userManager/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../第四章-结构体,方法/作业/userManager/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1rps6YnwECVCo2mtyCQAPloKNTV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="687" y="217" key="FileChooserDialogImpl" timestamp="1621145883534">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="217" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1621145883534" />
+  </component>
+</project>

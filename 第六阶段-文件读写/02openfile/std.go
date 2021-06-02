@@ -22,7 +22,7 @@ func main() {
 	defer file.Close()
 
 	fmt.Println(file.Readdir(-1))
-	//fmt.Println(file.IsDir())
+	//pkg_fmt.Println(file.IsDir())
 	fmt.Println(os.Create("xxx.txt"))
 
 }

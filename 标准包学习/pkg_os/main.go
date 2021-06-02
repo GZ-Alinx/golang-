@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"io"
 	"log"
 	"os"
 	"time"
@@ -54,5 +55,16 @@ func main() {
 		fmt.Println(file.Type())         // 类型信息
 		fmt.Println(file.Type().IsDir()) // 是否是目录一致
 	}
+
+	f1, _ := os.Create("f1.txt")
+	f2, _ := os.Create("f2.txt")
+	m := io.MultiWriter(f1, f2)
+	// 同时写入两份文件
+	m.Write([]byte("gopoooo"))
+
+	f1, _ = os.Open("windows项目.mod")
+	f2, _ = os.Open("mnain.windows项目")
+	r := io.MultiReader(f1, f2)
+	io.Copy(os.Stdout, r)
 
 }
