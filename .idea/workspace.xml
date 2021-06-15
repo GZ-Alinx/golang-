@@ -20,49 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4349d185-830d-418a-8128-14183cfe90c6" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/ginweb/.idea/ginweb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ginweb/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ginweb/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ginweb/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ginweb/01Gin初体验/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ginweb/02Gin路由/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ginweb/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_goquery/.idea/pkg_goquery.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_goquery/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_json/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_md5/file.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_md5/test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/cmdb/handers/auth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/cmdb/handers/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/cmdb/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/cmdb/routers/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/cmdb/utils/template.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/cmdb/view/auth/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/cmdb/view/user/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/html/file.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/html/from.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/html/helloworld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/html/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/tpl/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/模板复用/all.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/模板复用/html/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/模板复用/html/page1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/模板复用/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/模板复用/tempfile.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第十阶段-http/模板复用/temps.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/自研小工具/Md5Diff/.idea/md5sumDiff.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/自研小工具/Md5Diff/Md5Diff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/自研小工具/Md5Diff/Md5Diff.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/自研小工具/Md5Diff/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/自研小工具/Md5Diff/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/go复习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go复习.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_viper配置解析/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_viper配置解析/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_viper配置解析/jsonRead.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_viper配置解析/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/标准包学习/pgk_base64/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/标准包学习/pgk_base64/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/标准包学习/pkg_filepath/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/标准包学习/pkg_filepath/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第八阶段-Go并发和管道/GoroutineSync.go" beforeDir="false" afterPath="$PROJECT_DIR$/第八阶段-Go并发和管道/GoroutineSync.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,22 +180,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="687" y="202" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623421136189" />
-    <state width="1258" height="285" key="GridCell.Tab.0.bottom" timestamp="1622600935843">
+    <state width="1869" height="288" key="GridCell.Tab.0.bottom" timestamp="1623736708623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1258" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622600935843" />
-    <state width="1258" height="285" key="GridCell.Tab.0.center" timestamp="1622600935843">
+    <state width="1869" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623736708623" />
+    <state width="1869" height="288" key="GridCell.Tab.0.center" timestamp="1623736708623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1258" height="285" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622600935843" />
-    <state width="1258" height="285" key="GridCell.Tab.0.left" timestamp="1622600935843">
+    <state width="1869" height="288" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623736708623" />
+    <state width="1869" height="288" key="GridCell.Tab.0.left" timestamp="1623736708623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1258" height="285" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622600935843" />
-    <state width="1258" height="285" key="GridCell.Tab.0.right" timestamp="1622600935843">
+    <state width="1869" height="288" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623736708623" />
+    <state width="1869" height="288" key="GridCell.Tab.0.right" timestamp="1623736708623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1258" height="285" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622600935843" />
+    <state width="1869" height="288" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623736708623" />
     <state width="1869" height="3" key="GridCell.Tab.1.bottom" timestamp="1620228456137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -258,10 +220,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="653" height="498" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1619252964734" />
-    <state x="576" y="32" width="767" height="975" key="find.popup" timestamp="1623031838016">
+    <state x="576" y="32" width="767" height="975" key="find.popup" timestamp="1623720731587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="576" y="32" width="767" height="975" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623031838016" />
+    <state x="576" y="32" width="767" height="975" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623720731587" />
     <state x="1029" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1622970436013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
