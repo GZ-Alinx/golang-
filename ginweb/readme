@@ -1,0 +1,25 @@
+
+
+
+学习gin的前置要求
+    go基础语法
+    go的http模块基础认识和掌握
+    golandIDE安装
+
+
+
+开发步骤
+
+    1. 初始化项目(linux)
+        mkdir ginweb && cd ginweb
+        go mod init ginweb
+        go mod tidy
+        go get -v github.com/gin-gonic/gin
+        如果goland中无语法提示将使用直接获取源码的方式到环境变量中的src目录下
+
+
+
+    2. 开始开发
+        根据需求进行开发
+
+

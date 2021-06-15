@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>表单</title>
+    </head>
+
+    <body>
+        <!-- 表单 用于想服务器提交数据 form表单内的元素会进行整体提交
+            提交的地址: action
+            提交的方式: method=GET/POST 默认GET
+            编码方式: enctype = application/x-www-from-urlencoded 默认
+         -->
+        <form method="POST">
+            <!-- 让与用户能输入数据的标签 -->
+            <div>
+                <label>用户名<input type="text" name="username" placeholder="默认值灰色提示" /></label>   <br />
+                <!-- readonly 对默认值 只读 不可修改 -->
+            </div>
+            <div>
+                <label>用户名<input type="text"  value="alinx" name="用户" disabled="disabled" /></label><br />
+                <!-- readonly 对默认值 只读 不可修改 -->
+            </div>
+            <div>
+                <label>用户名<input type="hidden"  name="id"  value="123123" placeholder="默认值灰色提示" /></label><br />
+                <!-- readonly 对默认值 只读 不可修改 -->
+            </div>
+            <div>
+                <label>密码<input type="password" value="123" name="密码" placeholder="默认值灰色提示" /></label><br />
+            </div>
+            <div>
+                <input type="submit" value="登录"><br />
+            </div>
+
+
+            <!--            单选框 -->
+            <div>
+                <label>性别:</label>
+                <span><input type="radio" name="sex" checked="checked"><label>男</label></span><br />
+                <span><input type="radio" name="sex" checked="checked"><label>女</label></span><br />
+            </div>
+            <!--            复选框 -->
+            <div>
+                <label>爱好:</label>
+                <span><input type="checkbox" name="d"><label>篮球</label></span><br />
+                <span><input type="checkbox" name="d"><label>足球</label></span><br />
+                <span><input type="checkbox" name="d"><label>羽毛球</label></span><br />
+                <span><input type="checkbox" name="d"><label>乒乓球</label></span><br />
+
+            </div>
+            <!--          下拉复选框 -->
+            <div>
+                <label>省份:</label>
+                <select name="provider">
+                    <option>贵州</option>
+                    <option>四川</option>
+                    <option>广东</option>
+                    <option>湖南</option>
+                </select>
+
+                <textarea></textarea>
+            </div>
+        </form>
+    </body>
+
+</html>

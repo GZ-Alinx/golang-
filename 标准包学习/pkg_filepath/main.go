@@ -34,8 +34,9 @@ func main() {
 
 	// WalkDir 递归目录 拿到文件信息
 	// 参数  目录  函数（返回路径， 返回文件信息， 返回错误信息）
-	filepath.Walk("../../", func(path string, info fs.FileInfo, err error) error {
-		fmt.Println(path, info.IsDir(), info.Name())
+	filepath.Walk("../", func(path string, info fs.FileInfo, err error) error {
+
+		fmt.Println(path)
 		return nil
 	})
 }

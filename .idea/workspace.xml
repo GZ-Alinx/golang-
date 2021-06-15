@@ -20,56 +20,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4349d185-830d-418a-8128-14183cfe90c6" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/Go_WEB/http_01.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go_WEB/web-gin/gin_路由组.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go_WEB/web-gin/login.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Go_WEB/web-gin/web.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/常用工具/系统跟踪/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_bufio/bufio.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_bufio/bufioRead.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_fmt/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_log/log_writeFile.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_net/socket.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第九阶段-网络编程/Lx_http/staticWEB/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第九阶段-网络编程/Lx_http/staticWEB/www/static1/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第九阶段-网络编程/Lx_http/staticWEB/www/static2/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第九阶段-网络编程/Lx_http/staticWEB/www/static3/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第九阶段-网络编程/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第九阶段-网络编程/tcp/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第九阶段-网络编程/tcp/net_server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第九阶段-网络编程/udp/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第九阶段-网络编程/udp/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第八阶段-Go并发和管道/DXchennel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第六阶段-文件读写/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginweb/.idea/ginweb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginweb/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginweb/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginweb/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginweb/01Gin初体验/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginweb/02Gin路由/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginweb/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_goquery/.idea/pkg_goquery.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_goquery/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_json/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_md5/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_md5/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/cmdb/handers/auth.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/cmdb/handers/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/cmdb/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/cmdb/routers/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/cmdb/utils/template.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/cmdb/view/auth/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/cmdb/view/user/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/html/file.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/html/from.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/html/helloworld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/html/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/tpl/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/模板复用/all.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/模板复用/html/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/模板复用/html/page1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/模板复用/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/模板复用/tempfile.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-http/模板复用/temps.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/自研小工具/Md5Diff/.idea/md5sumDiff.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/自研小工具/Md5Diff/Md5Diff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/自研小工具/Md5Diff/Md5Diff.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/自研小工具/Md5Diff/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/自研小工具/Md5Diff/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/go复习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go复习.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web相关包学习/pkg_http/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/web相关包学习/pkg_http/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/标准包学习/pkg_bufio/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/标准包学习/pkg_bufio/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/标准包学习/pkg_filepath/a/1.go" beforeDir="false" afterPath="$PROJECT_DIR$/标准包学习/pkg_filepath/a/1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/标准包学习/pgk_base64/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/标准包学习/pgk_base64/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/标准包学习/pkg_filepath/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/标准包学习/pkg_filepath/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/标准包学习/pkg_ioutil/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/标准包学习/pkg_ioutil/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/标准包学习/pkg_log/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/标准包学习/pkg_log/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/标准包学习/pkg_log/pkg_log.exe" beforeDir="false" afterPath="$PROJECT_DIR$/标准包学习/pkg_log/pkg_log.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/标准包学习/pkg_md5/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/标准包学习/pkg_md5/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/标准包学习/pkg_os/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/标准包学习/pkg_os/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/标准包学习/pkg_strings/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/标准包学习/pkg_strings/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一阶段-基础语法/数组arry-切片slice-映射map.go" beforeDir="false" afterPath="$PROJECT_DIR$/第一阶段-基础语法/数组arry-切片slice-映射map.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第一阶段-基础语法/练习-我有一个梦想/我有一个梦想.go" beforeDir="false" afterPath="$PROJECT_DIR$/第一阶段-基础语法/练习-我有一个梦想/我有一个梦想.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第三阶段-包和模块/testgopath/src/mian.go" beforeDir="false" afterPath="$PROJECT_DIR$/第三阶段-包和模块/testgopath/src/mian.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第二阶段-函数与错误/练习包与切片/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/第二阶段-函数与错误/练习包与切片/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第八阶段-Go并发和管道/GoroutineChannel.go" beforeDir="false" afterPath="$PROJECT_DIR$/第八阶段-Go并发和管道/GoroutineChannel.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/第八阶段-Go并发和管道/GoroutineSync.go" beforeDir="false" afterPath="$PROJECT_DIR$/第八阶段-Go并发和管道/GoroutineSync.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第八阶段-Go并发和管道/channelBuff.go" beforeDir="false" afterPath="$PROJECT_DIR$/第八阶段-Go并发和管道/channelBuff.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第八阶段-Go并发和管道/readme" beforeDir="false" afterPath="$PROJECT_DIR$/第八阶段-Go并发和管道/readme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第六阶段-文件读写/02openfile/append.go" beforeDir="false" afterPath="$PROJECT_DIR$/第六阶段-文件读写/02openfile/append.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第六阶段-文件读写/02openfile/std.go" beforeDir="false" afterPath="$PROJECT_DIR$/第六阶段-文件读写/02openfile/std.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第六阶段-文件读写/2main.go" beforeDir="false" afterPath="$PROJECT_DIR$/第六阶段-文件读写/2main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第六阶段-文件读写/作业集合/copyfile/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/第六阶段-文件读写/作业集合/copyfile/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第六阶段-文件读写/作业集合/sumCode/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/第六阶段-文件读写/作业集合/sumCode/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第六阶段-文件读写/带缓冲io/tailf.go" beforeDir="false" afterPath="$PROJECT_DIR$/第六阶段-文件读写/带缓冲io/tailf.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第四章-结构体,方法/4 匿名结构体.go" beforeDir="false" afterPath="$PROJECT_DIR$/第四章-结构体,方法/4 匿名结构体.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第四章-结构体,方法/5 命名组合结构体.go" beforeDir="false" afterPath="$PROJECT_DIR$/第四章-结构体,方法/5 命名组合结构体.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/第四章-结构体,方法/visib/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/第四章-结构体,方法/visib/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/练习项目/用户管理/users/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/练习项目/用户管理/users/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +81,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
-    <option name="indexEntireGoPath" value="false" />
+    <option name="urls">
+      <list>
+        <option value="file://$USER_HOME$/go" />
+      </list>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/标准包学习/pkg_encoder/gob.go" root0="SKIP_INSPECTION" />
@@ -103,24 +100,31 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.全局.GOPATH.is.expanded" value="true" />
+    <property name="configurable.模块.GOPATH.is.expanded" value="true" />
+    <property name="configurable.项目.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/第九阶段-网络编程/staticWEB/www" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ginweb" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\golang\go复习\第十阶段-http" />
       <recent name="D:\golang\go复习\第九阶段-网络编程\Lx_http" />
       <recent name="D:\golang\go复习\第九阶段-网络编程\tcp" />
       <recent name="D:\golang\go复习\标准包学习\pkg_net" />
       <recent name="D:\golang\go复习\第九阶段-网络编程\staticWEB\www\static" />
-      <recent name="D:\golang\go复习\标准包学习" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\golang\go复习\自研小工具" />
       <recent name="D:\golang\go复习\第九阶段-网络编程\staticWEB\www" />
       <recent name="D:\golang\go复习\第六阶段-文件读写\作业集合\sumCode\test\f2" />
       <recent name="D:\golang\go复习\第六阶段-文件读写\作业集合\sumCode\test" />
@@ -198,14 +202,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="抓紧学习，成长是唯一出路" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="646" y="305" key="#Notifications" timestamp="1623421171465">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="646" y="305" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1623421171465" />
     <state x="1258" y="276" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622599984745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1258" y="276" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1622599984745" />
-    <state x="687" y="202" key="FileChooserDialogImpl" timestamp="1619684188687">
+    <state x="659" y="344" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1623031826895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="687" y="202" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1619684188687" />
+    <state x="659" y="344" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1623031826895" />
+    <state x="687" y="202" key="FileChooserDialogImpl" timestamp="1623421136189">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="687" y="202" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623421136189" />
     <state width="1258" height="285" key="GridCell.Tab.0.bottom" timestamp="1622600935843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -238,21 +250,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1869" height="3" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620228456137" />
-    <state x="381" y="78" key="SettingsEditor" timestamp="1621858561422">
+    <state x="381" y="78" key="SettingsEditor" timestamp="1623421139970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="381" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1621858561422" />
+    <state x="381" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1623421139970" />
     <state width="653" height="498" key="SwitcherDM" timestamp="1619252964734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="653" height="498" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1619252964734" />
-    <state x="576" y="32" width="767" height="975" key="find.popup" timestamp="1622601062810">
+    <state x="576" y="32" width="767" height="975" key="find.popup" timestamp="1623031838016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="576" y="32" width="767" height="975" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622601062810" />
-    <state x="1029" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1622344050674">
+    <state x="576" y="32" width="767" height="975" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623031838016" />
+    <state x="1029" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1622970436013">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1029" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622344050674" />
+    <state x="1029" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622970436013" />
   </component>
 </project>

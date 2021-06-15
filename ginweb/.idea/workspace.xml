@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="42aeb63f-8645-4f8e-bb4c-288583e90603" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ginweb.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01Gin初体验/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02Gin路由/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../标准包学习/pkg_goquery/.idea/pkg_goquery.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../标准包学习/pkg_goquery/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../标准包学习/pkg_json/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../标准包学习/pkg_md5/file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../标准包学习/pkg_md5/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/cmdb/handers/auth.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/cmdb/handers/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/cmdb/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/cmdb/routers/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/cmdb/utils/template.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/cmdb/view/auth/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/cmdb/view/user/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/html/file.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/html/from.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/html/helloworld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/html/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/tpl/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/users.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/模板复用/all.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/模板复用/html/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/模板复用/html/page1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/模板复用/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/模板复用/tempfile.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../第十阶段-http/模板复用/temps.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../自研小工具/Md5Diff/.idea/md5sumDiff.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../自研小工具/Md5Diff/Md5Diff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../自研小工具/Md5Diff/Md5Diff.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../自研小工具/Md5Diff/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../自研小工具/Md5Diff/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../标准包学习/pgk_base64/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../标准包学习/pgk_base64/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../标准包学习/pkg_filepath/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../标准包学习/pkg_filepath/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../第八阶段-Go并发和管道/GoroutineSync.go" beforeDir="false" afterPath="$PROJECT_DIR$/../第八阶段-Go并发和管道/GoroutineSync.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$USER_HOME$/go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1to1WmsExefGYmMuvzOxox5CLTw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.全局.GOPATH.is.expanded" value="true" />
+    <property name="configurable.模块.GOPATH.is.expanded" value="false" />
+    <property name="configurable.项目.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="689" y="213" key="FileChooserDialogImpl" timestamp="1623421006309">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="213" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623421006309" />
+    <state x="384" y="74" key="SettingsEditor" timestamp="1623421009788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="384" y="74" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1623421009788" />
+  </component>
+</project>

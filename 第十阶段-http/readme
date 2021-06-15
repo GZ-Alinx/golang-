@@ -1,0 +1,152 @@
+ c/s => client + server
+ web => b/s => browser + server
+
+ WEB API = 第三方使用者，使用目标不是浏览器
+           需要自己去调用
+
+           组装HTTP请求 发送给服务端 解析HTTP响应
+
+
+
+ 客户端  <=HTTP=>服务端
+
+ HTTP协议: 超文本传输协议
+     HTTP 1.1/1.0/2.0 => 3.0
+     HTTP 1.1/1.0 文本
+
+     请求和响应的文本格式
+
+     请求都是从客户端发起(请求/应答)
+     HTTP Request
+         \r\n分的多行文本数据
+         1: 请求行 第一行 Method URL Protocol/Version
+             Method: 请求方式
+                     OPTIONS
+                     HEAD GET POST DELETE PUT
+                     Connect TRACE
+
+                     针对浏览器常发起的请求有GET, POST
+             URL: 标识不同的服务
+                 针对web开发需要定义URL和URL处理逻辑
+         2: 请求头 多行 Key: Value
+                 Host: 服务主机名
+                 浏览器信息 UserAgent
+                 会话信息 Cookie
+                 Content-Type:
+                 ...
+         [空行]
+         3. 请求体 可能没有 如果有内容 格式
+             常用编码方式
+                 application/x-www-form-urlencoded
+                     key=value&key=value
+                 multipart/form-data
+                     上传文件
+                 application/json
+                 application/xml
+
+     HTTP Response
+         1. 响应行
+            协议 响应状态码  响应状态码文本描述
+            1xx 告知客户端数据已收到请继续上传数据
+            2xx 请求正常
+                 200
+            3xx 请求重定向
+                 301 永远
+                 302 临时重定向
+            4xx 请求数据错误
+                 400 提交数据错误
+                 401 认证错误
+                 402
+                 403 权限拒绝
+                 404 URL错误
+                 405 请求方式错误
+            5xx 服务端错误
+                 500
+                 501
+                 503
+
+         2. 响应头
+             key: value
+             Content-Type: 响应格式
+             Set-Cookie: 设置会话
+         [空行]
+         3. 响应体
+             text/html
+             application/json
+             application/xml
+
+ 如何开发：服务端 客户端 net.http包
+     url => http.Handler 处理器
+             ServeHTTP(http.ResponseWrite, *http.Request)
+
+     客户向服务器提交数据:
+         url?key=value&key=value
+         queryparams =>
+
+         request body:
+             POST
+             content-type: application/x-www-form-urlencoded
+                             key=value&key=value
+                           application/json
+                           multipart/form-data
+
+web
+
+    html
+        响应
+        html => 超文本标记语言
+            => 由浏览器解析 html js css
+        类似于xml
+            文本头 <? xml>
+            标签
+                双标签 有开始和结尾 <p></p>
+                单标签  <a/>
+
+        html学习什么你呢
+            html规范
+        html 4
+        html 5
+
+        html：
+            头： <!DOCTYPE html>
+            根标签： <html>
+                        <head>
+                            <!--
+                                注释信息
+                            -->
+                            <meta charset="utf-8" />
+                        </head>
+                        <body>
+                            <!-- 使用者 告诉浏览器 给用户展示的 -->
+                        </body>
+                    </html>
+
+    模板基础 => 用户管理的项目
+    session/cookie => 认证 => 简单的session => 服务端保存认证信息
+        jwt => 客户端保存认证信息
+
+    爬虫 =>  goquery => web 1.0 开发模式 => html
+
+
+
+    使用浏览器向服务端发起请求的方式都有哪些 请求Method
+        1. 浏览器地址栏输入地址，按回车
+        2. 通过html标签定义
+            a. 超链接
+            b. 表单 methon=> post/get
+            c. img
+        3. 与服务器结合
+            重定向 get
+
+
+        模板 fmt.Sprintf printf Fprintf
+        	tpl 字符串占位 + 数据 => 结果字符串
+        	模板技术： 定义模板
+        		由模板引擎加载模板 通过制定的数据 生成最终的字符串
+
+        		模板语法
+
+        	go中提供的包
+        		text/template
+        		html/template  再web开发一定要用这个 会对html中的字符进行转义（防止一些安全注入的问题）
+
