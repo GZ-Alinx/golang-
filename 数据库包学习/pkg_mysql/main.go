@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	_ "github.com/windows项目-sql-driver/mysql"
+	_ "github.com/windows项目-sql-driver/go_mysql"
 )
 
 const (
@@ -26,7 +26,7 @@ type User struct {
 
 func main() {
 	// 下载安装
-	//  windows项目 get "github.com/windows项目-sql-driver/mysql"
+	//  windows项目 get "github.com/windows项目-sql-driver/go_mysql"
 
 	/*
 		特性
@@ -51,7 +51,7 @@ func main() {
 	// "database/sql"
 
 	dsn := fmt.Sprintf("%s:%s@%s(%s:%d)/%s", USERNAME, PASSWORD, NETWORK, SERVER, PORT, DATABASE)
-	MysqlDb, err := sql.Open("mysql", dsn)
+	MysqlDb, err := sql.Open("go_mysql", dsn)
 	if err != nil {
 		panic(err)
 	}

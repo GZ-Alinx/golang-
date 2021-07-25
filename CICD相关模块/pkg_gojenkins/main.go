@@ -43,7 +43,7 @@ func main() {
 		fmt.Println("删除成功", ok)
 	}
 
-	configString := `<?xml version='1.1' encoding='UTF-8'?>
+	configString := `<?xml version.txt='1.1' encoding='UTF-8'?>
 	<flow-definition plugin="workflow-job@2.40">
 	  <actions>
 		<org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@1.7.2"/>

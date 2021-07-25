@@ -20,11 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4349d185-830d-418a-8128-14183cfe90c6" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_viper配置解析/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_viper配置解析/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_viper配置解析/jsonRead.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_viper配置解析/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginweb/chognd.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginweb/ginBind.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginweb/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginweb/restfulapi.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginweb/routes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ginweb/参数校验.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/标准包学习/pkg_http/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第七阶段-接口和反射/interfacetest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第二阶段-函数与错误/错误判断写成函数.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第六阶段-文件读写/go_mysql/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-数据库/embeds/a/name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-数据库/embeds/a/set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-数据库/embeds/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-数据库/embeds/name.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-数据库/embeds/version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-数据库/gomysql/cmdb.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-数据库/gomysql/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第十阶段-数据库/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/练习项目/test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CICD相关模块/pkg_gojenkins/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/CICD相关模块/pkg_gojenkins/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据库包学习/pkg_mysql/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/数据库包学习/pkg_mysql/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +58,14 @@
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/GZ-Alinx/golang" />
+        <option value="https://github.com/GZ-Alinx/golang-" />
+      </set>
+    </option>
   </component>
   <component name="GoLibraries">
     <option name="urls">
@@ -65,7 +90,6 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.全局.GOPATH.is.expanded" value="true" />
     <property name="configurable.模块.GOPATH.is.expanded" value="true" />
@@ -75,7 +99,7 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ginweb" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -168,10 +192,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="646" y="305" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1623421171465" />
-    <state x="1258" y="276" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622599984745">
+    <state x="540" y="309" key="#SQL_方言" timestamp="1624169432308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1258" y="276" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1622599984745" />
+    <state x="540" y="309" key="#SQL_方言/0.0.1920.1040@0.0.1920.1040" timestamp="1624169432308" />
+    <state x="686" y="152" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1624169496446">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="686" y="152" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1624169496446" />
+    <state x="1258" y="276" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1624156661966">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1258" y="276" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1624156661966" />
     <state x="659" y="344" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1623031826895">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -212,10 +244,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1869" height="3" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620228456137" />
-    <state x="381" y="78" key="SettingsEditor" timestamp="1623421139970">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="762" y="159" key="SettingsEditor" timestamp="1626098024334">
+      <screen x="0" y="0" width="3840" height="2120" />
     </state>
     <state x="381" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1623421139970" />
+    <state x="762" y="159" key="SettingsEditor/0.0.3840.2120/-1920.452.1920.1040@0.0.3840.2120" timestamp="1626098024334" />
     <state width="653" height="498" key="SwitcherDM" timestamp="1619252964734">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -224,9 +257,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="576" y="32" width="767" height="975" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623720731587" />
-    <state x="1029" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1622970436013">
+    <state x="1029" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1625233639411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1029" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622970436013" />
+    <state x="1029" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1625233639411" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/第一阶段-基础语法/for循环.go</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/第四章-结构体,方法/main.go</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

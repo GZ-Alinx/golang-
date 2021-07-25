@@ -1,0 +1,41 @@
+2021/07/25 17:02:45.398 [I] [asm_amd64.s:1371]  http server Running on http://:8888
+2021/07/25 17:02:52.602 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|   352.6944ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/25 17:02:52.739 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|    83.8977ms| nomatch|[44m GET     [0m /user/assets/images/product3.png
+2021/07/25 17:02:52.806 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|    168.858ms| nomatch|[44m GET     [0m /user/assets/images/user.jpg
+2021/07/25 17:02:52.808 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|   171.4329ms| nomatch|[44m GET     [0m /user/assets/images/product.png
+2021/07/25 17:02:52.908 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|   256.7423ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/25 17:02:53.430 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|   175.2658ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/25 17:02:53.557 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|    81.4083ms| nomatch|[44m GET     [0m /user/assets/images/product.png
+2021/07/25 17:02:53.558 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|    82.4066ms| nomatch|[44m GET     [0m /user/assets/images/user.jpg
+2021/07/25 17:02:53.559 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|    83.4047ms| nomatch|[44m GET     [0m /user/assets/images/product3.png
+2021/07/25 17:02:53.662 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|   174.1344ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/25 17:02:54.863 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|   176.8151ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/25 17:02:54.988 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|    81.5495ms| nomatch|[44m GET     [0m /user/assets/images/product3.png
+2021/07/25 17:02:54.988 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|    83.2968ms| nomatch|[44m GET     [0m /user/assets/images/product.png
+2021/07/25 17:02:54.988 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|    83.1505ms| nomatch|[44m GET     [0m /user/assets/images/user.jpg
+2021/07/25 17:02:55.092 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|   174.8074ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/25 17:02:55.579 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|   173.4332ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/25 17:02:55.693 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|    82.9729ms| nomatch|[44m GET     [0m /user/assets/images/product.png
+2021/07/25 17:02:55.693 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|    82.8572ms| nomatch|[44m GET     [0m /user/assets/images/user.jpg
+2021/07/25 17:02:55.704 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|    82.0822ms| nomatch|[44m GET     [0m /user/assets/images/product3.png
+2021/07/25 17:02:55.797 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|   173.9998ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/25 17:03:00.481 [D] [server.go:2887]  |      127.0.0.1|[47m 302 [0m|    83.8117ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/07/25 17:03:00.703 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|   176.7364ms|   match|[44m GET     [0m /user/query/   r:/user/query/*
+2021/07/25 17:03:00.921 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|   172.3119ms|   match|[44m GET     [0m /user/query/assets/images/product.png   r:/user/query/*
+2021/07/25 17:03:01.164 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|   415.9988ms|   match|[44m GET     [0m /user/query/assets/images/product3.png   r:/user/query/*
+2021/07/25 17:03:01.205 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|   456.1314ms|   match|[44m GET     [0m /user/query/assets/images/user.jpg   r:/user/query/*
+2021/07/25 17:03:01.232 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|   459.5259ms|   match|[44m GET     [0m /user/query/   r:/user/query/*
+2021/07/25 17:03:08.805 [D] [server.go:2887]  |      127.0.0.1|[47m 302 [0m|   124.0985ms|   match|[44m GET     [0m /auth/logout/   r:/auth/logout/*
+2021/07/25 17:03:08.852 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|    41.5238ms|   match|[44m GET     [0m /auth/login   r:/auth/login/*
+2021/07/25 17:03:18.600 [D] [server.go:2887]  |      127.0.0.1|[47m 302 [0m|   225.8384ms|   match|[46m POST    [0m /auth/login/   r:/auth/login/*
+2021/07/25 17:03:18.864 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|   209.7515ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/25 17:03:18.982 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|    83.4921ms| nomatch|[44m GET     [0m /user/assets/images/user.jpg
+2021/07/25 17:03:18.982 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|    84.2503ms| nomatch|[44m GET     [0m /user/assets/images/product.png
+2021/07/25 17:03:18.989 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|    82.2376ms| nomatch|[44m GET     [0m /user/assets/images/product3.png
+2021/07/25 17:03:19.085 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|   171.1354ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/25 17:04:40.531 [I] [asm_amd64.s:1371]  http server Running on http://:8888
+2021/07/25 17:04:45.437 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|   338.1888ms|   match|[44m GET     [0m /user/query   r:/user/query/*
+2021/07/25 17:04:45.558 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|    79.4289ms| nomatch|[44m GET     [0m /user/assets/images/product3.png
+2021/07/25 17:04:45.635 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|    162.524ms| nomatch|[44m GET     [0m /user/assets/images/user.jpg
+2021/07/25 17:04:45.652 [D] [server.go:2887]  |      127.0.0.1|[43m 404 [0m|   179.0541ms| nomatch|[44m GET     [0m /user/assets/images/product.png
+2021/07/25 17:04:45.784 [D] [server.go:2887]  |      127.0.0.1|[42m 200 [0m|   262.3536ms|   match|[44m GET     [0m /user/query   r:/user/query/*

@@ -1,0 +1,29 @@
+bootstrap学习
+
+
+官网: https://getbootstrap.com
+下载: 使用CompiledCSSandJS版本
+	https://github.com/twbs/bootstrap/releases/download/v5.0.2/bootstrap-5.0.2-dist.zip
+
+
+核心: bootstrap class
+选择器: 标签结构
+bootstrap:
+	布局
+
+	栅格模型:
+			将页面等分为12列
+			指定元素的宽度: 占等分的n倍，自动计算
+
+
+class="container" 居中排列
+class="container-fluid" 居左排列 
+class="row" 列
+class="col" 等分
+
+表格
+class="table table-striped table-dark"
+table-sm 小表格 
+
+告警  有不同的颜色
+class="alert alert-primary" role="alert"

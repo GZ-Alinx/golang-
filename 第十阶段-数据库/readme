@@ -1,0 +1,24 @@
+复习
+    html模板
+    go text/template html/template(web 开发一定要使用html类型)
+    模板语法：
+        显示
+        条件
+        循环
+        函数调用
+
+
+        模板服用
+            定义 define
+            引用 template
+            覆盖 block
+
+        html/template
+
+
+        认证
+            跟踪用户的状态
+            服务端跟踪
+            客户端跟踪
+                对方给客户端进行签名 => 对数据签名验证
+                cookie gob编码的 => 其他人拿到信息肯定解码

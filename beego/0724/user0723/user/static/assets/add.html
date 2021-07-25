@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="zxx">
+<!--<![endif]-->
+<!-- Begin Head -->
+
+<head>
+    <title>SplashDash</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="MobileOptimized" content="320">
+    <!-- Required Start Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/icofont.min.css">
+    <!--Page Specific Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nice-select.css">
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" id="theme-change" type="text/css" href="#">
+    <!-- Favicon Link -->
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+</head>
+
+<body>
+    {{ template "base/nav.html" . }}
+        <!-- Container Start -->
+        <div class="page-wrapper">
+            <div class="main-content">
+                <div class="from-wrapper">
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4>用户添加</h4>
+                                </div>
+                                <div class="card-body">
+                                    <form class="separate-form">
+                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                            <div class="row">
+                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="member-name" class="col-form-label">名称</label>
+                                                        <input class="form-control" type="text" placeholder="请输入用户名" id="member-name" value="{{ .form.Name }}">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="member-email" class="col-form-label">性别</label>
+                                                        <div class="col-6">
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" name="sex" type="radio" value="0" checked="checked" />
+                                                                <label class="form-check-label">男</label>
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" name="sex" type="radio" value="1"  checked="checked"  />
+                                                                <label class="form-check-label">女</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="member-email" class="col-form-label">密码</label>
+                                                        <input name="password" value="{{ .form.Password }}" />
+                                                        <input class="form-control" type="password" placeholder="密码信息" id="member-email" name="password" value="{{ .form.Password }}">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="another-number" class="col-form-label">Contact Number</label>
+                                                        <input class="form-control" type="text" placeholder="Contact Number" id="another-number">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
