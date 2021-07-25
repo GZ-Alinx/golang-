@@ -1,0 +1,13 @@
+div {
+    height: 500px;
+    width: 500px;
+    background-color: gray;
+    columns: red;
+    border-radius: 50px;
+}
+/*
+选择器权重
+    后设置的生效
+    内联 页面内 页面外
+    
+*/

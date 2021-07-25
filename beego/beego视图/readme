@@ -1,0 +1,89 @@
+复习
+    orm
+        引入包
+            "github.com/beego/beego/v2/adapter/orm"
+	        _ "github.com/go-sql-driver/mysql"
+        定义模型
+            模型(名称 属性) -> 表(名称 类型)
+
+            Go模型结构
+                根据结构体注册模型生成数据表(ddl)
+                官方文档: https://beego.me/docs/mvc/model/models.md
+                CRUD(DQL,DML)
+                    ormer.Insert
+                    ormer.Update
+                    ormer.Read
+                    ormer.Delete
+
+
+新内容
+    MVC
+    V beego vies + css(Bootstrap)
+    css
+        层叠样式表但
+        css决定标签在浏览器的样子
+
+    css设置方式
+        1. 内嵌式
+            直接指定在标签中
+            div 宽度 高度 width heith
+            style=""
+        2. 外部引入式
+            a. 引入远程样式文件
+            b. 引入本地样式文件
+    选择器
+        查找html标签
+        基本选择器
+        ID
+            查找某个标签    #ID
+            <tag id="id"> </tag>
+        class
+            通过class值进行选择， .className
+            <tag class="className"></tag>
+        复合选择
+            tagName.className
+            H1.div.
+        
+    其他选择器
+        属性选择器
+            [attrName]
+                [href]
+                a
+                link
+            [attrName=attValue]
+        子选择器
+            selector > selector
+
+        子孙选择器
+            selector selector
+
+    
+    盒子模型
+        各个属性之间占用空间的大小
+    
+    bootstrap 前端框架
+        前端css框架，包含js功能
+            定义selector样式 class选择器
+        
+        使用
+            引入： link
+            <link rel="stylesheet" href="./bootstrap-4.0.0-dist/css/bootstrap.css">
+
+        
+        版本选择
+            bootstrap前端css框架 js功能
+            选择前端模板，js
+        
+        基本概念
+            layout
+                布局
+                container
+                container-fluid
+            
+            grid
+                栅格
+                行/列
+                <div class="row">
+                    <div class="col-2">1</div>
+
+        将bootstrap-4.0.0-dist 放到static目录下

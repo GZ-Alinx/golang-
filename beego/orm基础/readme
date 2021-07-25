@@ -1,0 +1,160 @@
+beego项目结构
+    conf
+        app.conf
+    controllers
+    routers     路由设置 url => controllers
+    services    服务
+    models      数据库增删改查模型
+    views       视图,html模板
+    tests       单元测试
+    static      静态资源文件
+    forms       对请求提交的数据抽象
+    main.go     程序入口
+
+    定义好包的层次，避免循环依赖
+
+mvc
+    Controller
+    View
+    Model
+
+beego服务启动
+beego配置
+路由+控制器
+    controoler => web.Controller
+    接收用户数据,验证请求数据
+    响应
+        使用模板 tpl.Name 
+        数据项目 Data["key"] = value
+    Session控制
+    url构建 url -> Controoler => controllerName.actionName -> url
+        template urlfor
+        go代码 web.urlfor
+    flash消息
+        利用cookie获取数据
+    错误处理，500，404的页面，自己写一个进行对应
+        controllers.error404
+        controllers.error500
+
+
+
+
+本节学习核心内容
+
+    beego orm学习
+
+        orm数据数据库操作的封装
+        
+        go语言中的概念对应
+            ORM  对象关系映射 Object Relation Mapping
+                数据库          <=> 面向对象类（常用于关系型数据库）
+                表定义          <=> 结构体（类）
+                    名字        <=> 结构体名(类名)
+                    列          <=> 属性
+                        列名    <=> 属性名
+                        列类型  <=> 属性类型
+            
+            
+                go对象 <=> 反射 => create table
+                表结构 <=> 结构体
+            
+                数据
+                    每行数据    <=> 实例化/类对象
+                数据操作
+                    增删改查    <=> go方法(自动操作转换为sql 调用数据库执行sql语句)
+        
+        ORM思想 => 实现
+            
+            工具（针对不同数据库进行实现）
+                gorm
+                xorm
+                beego orm
+            好处
+                如果再使用过程中为使用某个数据特性的sql或者针对某个数据的特性功能，可以实现数据库之间切换
+                可以再不聊破解sql的情况下 实现对数据库的操作
+            缺点
+                性能
+                只能使用orm框架提供的基本功能，针对数据提供的特性功能,orm未实现的功能，值使用原生sql
+    
+    
+
+        使用orm
+            使用包
+                数据库驱动 github.com/go-sql-driver/mysql
+                orm库 github.com/beego/beego/v2/client/orm 使用database/sql并提供orm的增强功能
+
+            
+            定义结构
+                表结构  <=> sql
+                可以不定义表结构 <=> 可通过orm同步
+                    创建表      =>  同步
+                    删除表      =>  不同步
+                    对于表列修改
+                        添加列  =>  同步
+                        修改列  =>  同步
+                            列名    => 可同步，新增
+                            列属性  => 可同步
+                        删除列  =>  同步
+
+                需要定义结构体(类)
+                    type User struct {
+                        Id int64
+                        Name string
+                    }
+                    定义结构体和表的关系
+                        表关系
+                            表名    <=> 默认 结构体驼峰模式 -> 全小写下划线
+                                除首字母,碰到大写会加下划线并转成小写
+                                User <=> user
+                                UserDB <=> user_db
+                                需要可定义与表关系
+                            修饰
+                                索引 <=> 方法
+
+                        列的关系
+                            除首字母,碰到大写会加下划线并转成小写
+                            列名    <=> 默认解耦固体属性名驼峰式 -> 全小写下划线式
+                                属性标签
+
+                            修饰    <=> 属性标签
+
+                            标签名： orm
+                    
+                    orm管理的结构体(注册)
+                        orm.REgisterModel
+                    
+
+
+
+                模型定义
+                    表结构
+                        表名
+                        
+                        索引
+                    
+                    属性
+                        属性名
+                        属性修饰
+
+                        标签: orm
+                        标签项
+                            pk
+                            auto
+                            index/unique
+                            type
+                                int int
+                                int64 bigint
+                                string varchar(255)
+                                    size()
+                                    type() text(longtext)/char
+                                time.TIme *time.TIme datetime
+                                    type(date)
+                            null
+                            default
+                            description
+                            针对小数类型
+                                digits
+                                decimals
+                            针对时间 *time.Time
+                                auto_now
+                                auto_now_add
