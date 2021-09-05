@@ -13,19 +13,24 @@ func main() {
 	fmt.Fscan() ioReader中扫描
 	*/
 
-
-
 	/*
-	控制台，文件擦走
-	标准输入，标准暑促和 标准错误输出
-	fmt.Print()
+		控制台，文件擦走
+		标准输入，标准暑促和 标准错误输出
+		fmt.Print()
 
 	*/
 	// fmt Fprint数据流写入 将右边的数据写入左边的对象中
 	file, _ := os.Create("fprintf.txt")
 	//数据流写入
-	fmt.Fprint(file, 1,2,3)
+	fmt.Fprint(file, 1, 2, 3)
 	fmt.Fprint(file, "x")
-	fmt.Fprintln(file, "x","y","z")
+	fmt.Fprintln(file, "x", "y", "z")
 	fmt.Fprintf(file, "%s", "123")
+
+	// 字符添加
+	data1 := "test"
+	data2 := "aa"
+	data3 := 123
+	data := fmt.Sprintf("%s 123 %s %d", data1, data2, data3)
+	fmt.Println(data)
 }
