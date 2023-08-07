@@ -1,5 +1,5 @@
-module pkg_osexec
+module pkg_crontab
 
-go 1.16
+go 1.20
 
 require github.com/robfig/cron v1.2.0
