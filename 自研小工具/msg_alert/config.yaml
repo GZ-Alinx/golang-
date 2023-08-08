@@ -1,0 +1,7 @@
+# log file path 
+logfile_path: ./
+# webhook site set
+Webhook:
+  Wechat: ""
+  Feishu: "https://open.feishu.cn/open-apis/bot/v2/hook/28c8a5d3-4bb9-490b-8475-d50e2b7b0b3a"
+  Dingtalk: "https://oapi.dingtalk.com/robot/send?access_token=8596c0574dcada2b2b9d39e14a23a184b5940ea80a8f65b8c9e2d733c9b8ebc3"
